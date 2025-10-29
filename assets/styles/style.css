@@ -1,0 +1,105 @@
+.container {
+    margin: 0 220px;
+}
+
+.yellow-btn {
+    background-color: var(--Yellow);
+    border: none;
+    padding: 18.5px 40px;
+    border-radius: 12px;
+    color: var(--Dark-Blue);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.blue-btn {
+    background-color: var(--Blue);
+    border: none;
+    padding: 18.5px 24px;
+    border-radius: 12px;
+    color: var(--White);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-shrink: 1;
+
+}
+
+.blue-btn>i {
+    font-size: 11px;
+}
+
+/* header styles */
+header {
+    background-color: var(--Dark-Blue);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.header-right-section {
+    display: flex;
+    gap: 60px;
+}
+
+.header-navigation-block {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header-droplist {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: var(--White);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-droplist > i {
+    font-size: 9px;
+    padding: 10px;
+}
+
+.header-buttons-block {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+/* introdiction styles */
+.introdiction {
+    background-color: var(--Dark-Blue);
+    color: var(--White);
+}
+
+.introdiction-content {
+    display: flex;
+    align-items: center;
+    padding: 140px 0;
+}
+
+.introdiction-title {
+    margin-bottom: 24px;
+}
+
+.introdiction-description {
+    margin-bottom: 60px;
+}
+
+.introdiction-img {
+    width: 824px;
+    height: 549px;
+    background-color: #C4DEFD;
+}
