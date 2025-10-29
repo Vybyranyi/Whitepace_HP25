@@ -78,27 +78,27 @@ header {
     align-items: center;
 }
 
-/* introdiction styles */
-.introdiction {
+/* introduction styles */
+.introduction {
     background-color: var(--Dark-Blue);
     color: var(--White);
 }
 
-.introdiction-content {
+.introduction-content {
     display: flex;
     align-items: center;
     padding: 140px 0;
 }
 
-.introdiction-title {
+.introduction-title {
     margin-bottom: 24px;
 }
 
-.introdiction-description {
+.introduction-description {
     margin-bottom: 60px;
 }
 
-.introdiction-img {
+.introduction-img {
     width: 824px;
     height: 549px;
     background-color: #C4DEFD;

@@ -1,10 +1,12 @@
 :root {
-    /* Base Colors */
-    --Black: #212529;
-    --White: #ffffff;
-
-    --Yellow: #FFE492;
-    --Blue: #4F9CF9;
+    /* Primary Color */
     --Dark-Blue: #043873;
-    
+    --Blue: #4F9CF9;
+
+    /* Secondary Color */
+    --Yellow: #FFE492;
+    --Light-Blue: #A7CEFC;
+    --White: #ffffff;
+    --Black: #212529;
+
 }
