@@ -67,7 +67,7 @@ header {
     gap: 10px;
 }
 
-.header-droplist > i {
+.header-droplist>i {
     font-size: 9px;
     padding: 10px;
 }
@@ -105,4 +105,76 @@ header {
     width: 824px;
     height: 549px;
     background-color: #C4DEFD;
+}
+
+/* plans section styles */
+.plans-title {
+    margin-bottom: 24px;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.plans-subtitle {
+    max-width: 979px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.plans-block {
+    display: flex;
+    align-items: center;
+    gap: 32px;  
+    padding-bottom: 140px;  
+}
+
+.plan-item {
+    border: 1px solid var(--Yellow);
+    border-radius: 10px;
+    padding: 40px 44px;
+}
+
+.plan-item:nth-child(2) {
+    background-color: var(--Dark-Blue);
+    border: none;
+    color: var(--White);
+    padding: 80px 44px;
+}
+
+.plan-item:nth-child(2) > .plan-item-price {
+    color: var(--Yellow);
+}
+
+.plan-item:nth-child(2) > .plan-item-btn {
+    background-color: var(--Blue);
+    border: none;
+    color: var(--White);
+}
+
+.plan-item-title {
+    margin-bottom: 25px;
+}
+
+.plan-item-price, .plan-item-description {
+    margin-bottom: 25px;
+}
+
+.plan-item-list {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.plan-item-list > li {
+    margin-bottom: 28px;
+}
+
+.plan-item-list > li:last-child {
+    margin-bottom: 25px;
+}
+
+.plan-item-btn {
+    background-color: var(--White);
+    border: 1px solid var(--Yellow);
+    border-radius: 12px;
+    padding: 16px 40px;
 }
