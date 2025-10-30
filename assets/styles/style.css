@@ -146,3 +146,47 @@ header {
 .project-management-text >.blue-btn{
 border-radius: 6px;
 }
+
+/* Use as Extention styles */
+.use-as-extention{
+    background-color: var(--Dark-Blue);
+}
+.uae-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px 0;
+    gap: 98px;
+
+}   
+.uae-left-part{
+    color: var(--White);
+}
+.uae-title{
+    margin-bottom: 24px;
+}
+.uae-title span{
+    background-image: url("/assets/images/UnderLine.svg");
+    background-repeat: no-repeat;
+    background-position-y: 95%;
+
+}
+
+.uae-description{
+    margin-bottom: 60px;
+}
+
+
+.uae-img{
+    width: 686px;
+    height: 479px;
+    background-color: var(--Light-Blue);
+
+}
+
+.uae-btn{
+    padding: 20px 40px;
+}
+
+.uae-btn i{
+    font-size: 15px;
