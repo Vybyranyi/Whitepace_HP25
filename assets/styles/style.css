@@ -106,3 +106,39 @@ header {
     height: 549px;
     background-color: #C4DEFD;
 }
+
+/* Project Management */
+
+.project-management {
+    background-color: var(--White);
+    color: var(--Black);
+    background-image: url('/assets/images/lines-bg/project-management-bg.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: end;
+}
+
+.project-management-content {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.project-management-title {
+    margin-bottom: 24px;
+}
+
+.project-management-description {
+    margin-bottom: 60px;
+}
+
+.project-management-img {
+    width: 748px;
+    height: 547px;
+    background-color: #C4DEFD;
+    margin-left: 60px;
+}
+
+.project-management-text >.blue-btn{
+border-radius: 6px;
+}
