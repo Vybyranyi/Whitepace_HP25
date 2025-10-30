@@ -82,6 +82,9 @@ header {
 .introduction {
     background-color: var(--Dark-Blue);
     color: var(--White);
+    background-image: url('/assets/images/lines-bg/introduction-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .introduction-content {
