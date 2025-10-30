@@ -126,6 +126,10 @@ header {
 
 .project-management-title {
     margin-bottom: 24px;
+    background-image: url('/assets/images/lines-bg/Element.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 600px;
 }
 
 .project-management-description {
