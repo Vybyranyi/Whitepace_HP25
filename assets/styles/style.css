@@ -147,6 +147,10 @@ header {
 border-radius: 6px;
 }
 
+/* work-together styles */
+
+
+
 /* Use as Extention styles */
 .use-as-extention{
     background-color: var(--Dark-Blue);
@@ -191,6 +195,10 @@ border-radius: 6px;
 .uae-btn i{
     font-size: 15px;
 }
+
+/* customise styles */
+
+
 
 /* plans section styles */
 .plans-title {
@@ -263,3 +271,29 @@ border-radius: 6px;
     border-radius: 12px;
     padding: 16px 40px;
 }
+
+/* your-work styles */
+
+
+
+/* your-data styles */
+
+
+
+/* sponsors styles */
+
+
+
+/* favorite-apps styles */
+
+
+
+/* clients styles */
+
+
+
+/* try-today styles */
+
+
+
+/* footer styles */
