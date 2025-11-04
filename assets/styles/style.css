@@ -78,6 +78,10 @@ header {
     align-items: center;
 }
 
+.header-buttons-block>i {
+    display: none;
+}
+
 /* introduction styles */
 .introduction {
     background-color: var(--Dark-Blue);
@@ -143,8 +147,8 @@ header {
     margin-left: 60px;
 }
 
-.project-management-text >.blue-btn{
-border-radius: 6px;
+.project-management-text>.blue-btn {
+    border-radius: 6px;
 }
 
 /* work-together styles */
@@ -152,47 +156,51 @@ border-radius: 6px;
 
 
 /* Use as Extention styles */
-.use-as-extention{
+.use-as-extention {
     background-color: var(--Dark-Blue);
 }
-.uae-content{
+
+.uae-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 140px 0;
     gap: 98px;
 
-}   
-.uae-left-part{
+}
+
+.uae-left-part {
     color: var(--White);
 }
-.uae-title{
+
+.uae-title {
     margin-bottom: 24px;
 }
-.uae-title span{
+
+.uae-title span {
     background-image: url("/assets/images/UnderLine.svg");
     background-repeat: no-repeat;
     background-position-y: 95%;
 
 }
 
-.uae-description{
+.uae-description {
     margin-bottom: 60px;
 }
 
 
-.uae-img{
+.uae-img {
     width: 686px;
     height: 479px;
     background-color: var(--Light-Blue);
 
 }
 
-.uae-btn{
+.uae-btn {
     padding: 20px 40px;
 }
 
-.uae-btn i{
+.uae-btn i {
     font-size: 15px;
 }
 
@@ -217,8 +225,8 @@ border-radius: 6px;
 .plans-block {
     display: flex;
     align-items: center;
-    gap: 32px;  
-    padding-bottom: 140px;  
+    gap: 32px;
+    padding-bottom: 140px;
 }
 
 .plan-item {
@@ -234,11 +242,11 @@ border-radius: 6px;
     padding: 80px 44px;
 }
 
-.plan-item:nth-child(2) > .plan-item-price {
+.plan-item:nth-child(2)>.plan-item-price {
     color: var(--Yellow);
 }
 
-.plan-item:nth-child(2) > .plan-item-btn {
+.plan-item:nth-child(2)>.plan-item-btn {
     background-color: var(--Blue);
     border: none;
     color: var(--White);
@@ -248,7 +256,8 @@ border-radius: 6px;
     margin-bottom: 25px;
 }
 
-.plan-item-price, .plan-item-description {
+.plan-item-price,
+.plan-item-description {
     margin-bottom: 25px;
 }
 
@@ -257,11 +266,11 @@ border-radius: 6px;
     margin-left: 20px;
 }
 
-.plan-item-list > li {
+.plan-item-list>li {
     margin-bottom: 28px;
 }
 
-.plan-item-list > li:last-child {
+.plan-item-list>li:last-child {
     margin-bottom: 25px;
 }
 
@@ -297,3 +306,122 @@ border-radius: 6px;
 
 
 /* footer styles */
+
+@media screen and (max-width: 1650px) {
+    .container {
+        margin: 0 32px;
+    }
+
+    /* header styles */
+    .header-droplist>i {
+        padding-right: 0px;
+    }
+
+    /* introduction styles */
+    .introduction-content {
+        padding: 100px 0;
+    }
+
+    .introduction-img {
+        width: 685px;
+        height: 456px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    /* header styles */
+    .header-navigation-block {
+        display: none;
+    }
+
+    .header-buttons-block>i {
+        display: block;
+        color: var(--White);
+        font-size: 36px;
+    }
+
+    /* introduction styles */
+    .introduction-content {
+        padding: 145px 0;
+    }
+
+    .introduction-img {
+        width: 526px;
+        height: 350px;
+    }
+
+    /* Project Management */
+    .project-management-img {
+        width: 528px;
+        height: 328px;
+    }
+
+    /* Use as Extention styles */
+    .uae-img {
+        width: 458px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    /* header styles */
+    .header-buttons-block>.blue-btn,
+    .header-buttons-block>.yellow-btn {
+        display: none;
+    }
+
+    .introduction-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 100px;
+        padding: 100px 0;
+    }
+
+    .introduction-text>.blue-btn {
+        margin: 0 auto;
+    }
+
+    /* Project Management */
+    .project-management-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 60px;
+    }
+
+    .project-management-title {
+        width: max-content;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+
+    .project-management-text>.blue-btn {
+        margin: 0 auto;
+    }
+
+    .project-management-img {
+        margin: 0;
+    }
+
+    /* Use as Extention styles */
+    .uae-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 0;
+    }
+
+    .uae-btn {
+        margin: 0 auto;
+    }
+
+    /* plans section styles */
+    .plan-item:nth-child(1),
+    .plan-item:nth-child(3) {
+        display: none;
+    }
+
+    .plans-block {
+        justify-content: center;
+    }
+}
