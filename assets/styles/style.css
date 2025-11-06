@@ -294,7 +294,41 @@ header {
 
 
 /* favorite-apps styles */
+.favorite-apps {
+    background-color: var(--Dark-Blue);
+    background-image: url("/assets/images/lines-bg/apps-bg.svg");
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
+.favorite-apps-content {
+    display: flex;
+    padding: 140px 0;
+    color: var(--White);
+    gap: 100px;
+    align-items: center;
+
+}
+
+.favorite-apps-img {}
+
+.favorite-apps-title {
+    margin-bottom: 24px;
+}
+
+.favorite-apps-description {
+    margin-bottom: 60px;
+}
+
+.favorite-apps-right-part>button>i {
+    font-size: 14px;
+}
+
+.favorite-apps-right-part>button {
+    padding: 20px 40px;
+
+}
 
 
 /* clients styles */
@@ -309,7 +343,7 @@ header {
 
 @media screen and (max-width: 1650px) {
     .container {
-        margin: 0 32px;
+        margin: 0 32px 0 32px;
     }
 
     /* header styles */
@@ -362,7 +396,27 @@ header {
         width: 458px;
         height: 320px;
     }
+
+
+    /* favorite-apps styles */
+    .favorite-apps-img{
+        width: 49%;
+        /* height: 427px; */
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 850px) {
 
@@ -424,6 +478,26 @@ header {
     .plans-block {
         justify-content: center;
     }
+
+    /* favorite-apps styles */
+    .favorite-apps-content {
+        flex-direction: column;
+
+    }
+
+    .favorite-apps-right-part {
+        margin: 0 auto;
+
+    }
+
+    .favorite-apps-title,
+    .favorite-apps-description {
+        text-align: center;
+    }
+
+    .favorite-apps-right-part>button {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -468,5 +542,32 @@ header {
 
     .plans-block {
         padding-bottom: 80px;
+    }
+
+    /* favorite-apps styles */
+
+    .favorite-apps-content {
+        flex-direction: column;
+        padding: 80px 0;
+
+    }
+
+    .favorite-apps-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .favorite-apps-right-part {
+        margin: 0 auto;
+
+    }
+
+    .favorite-apps-title,
+    .favorite-apps-description {
+        text-align: center;
+    }
+
+    .favorite-apps-right-part>button {
+        margin: 0 auto;
     }
 }
