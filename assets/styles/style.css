@@ -600,4 +600,61 @@ header {
     .sponsors-logo:nth-child(1) {
         height: 70px;
     }
+
+}
+
+
+/* customise section */
+.customise {
+    padding-top: 150px;
+}
+
+
+
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.object {
+    display: flex;
+    width: 50%;
+    height: 502px;
+    background-color: #C4DEFD;
+    padding-right: 98px;
+}
+
+.text {
+    padding-left: 98px;
+}
+
+.main-text {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    color: #212529;
+    width: 669px;
+    padding-bottom: 10px;
+}
+
+.subtext {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #212529;
+    width: 669px;
+    padding-bottom: 50px;
+}
+
+.btn>button {
+    width: 171px;
+    height: 63px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: #4F9CF9;
+    color: white;
+    border: 0;
+    font-size: 17px;
+
 }
