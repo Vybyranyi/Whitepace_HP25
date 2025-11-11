@@ -401,7 +401,7 @@ header {
     /* favorite-apps styles */
     .favorite-apps-img{
         width: 49%;
-        /* height: 427px; */
+       
     }
 
 
@@ -456,6 +456,7 @@ header {
 
     .project-management-img {
         margin: 0;
+        
     }
 
     /* Use as Extention styles */
@@ -497,6 +498,12 @@ header {
 
     .favorite-apps-right-part>button {
         margin: 0 auto;
+    }
+    .favorite-apps-img{
+        width: 70%;
+    }
+    .favorite-apps{
+        
     }
 }
 
